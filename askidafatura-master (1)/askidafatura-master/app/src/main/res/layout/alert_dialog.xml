@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="#BABCD6">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Askıda Fatura"
+            android:textAlignment="center"
+            android:textColor="@color/colorNavbar"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_include"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Değerli hayırseverler,\n\nBuraya askıda fatura bırakan ihtiyaç sahipleri, 2022 asgari ücretteki artışa paralel olarak hane içi kişi başı geliri maksimum 1417 TL ve altı olduğunu başvuru esnasında beyan eden vatandaşlarımız olup, bu rakamın üzerinde geliri olanların askıya fatura bırakmaları mümkün değildir. Yeni ihtiyaç sahiplerinin listeye girmesi nedeniyle, aşamalı olarak yeni faturalar da sisteme eklenmektedir.\n\nAyrıca Korkmaz Yazılım bu yardımlara yalnızca aracılık yapmakta olup, siz yardımsever dostlar doğrudan yardıma muhtaç kişinin faturasını ilgili kurumuna ödemektesiniz. Ödemeleri kabul eden kurumun veya ödemeye aracılık eden kurumun işlemlerinde zaman zaman aksamalar olabileceğinden, yarım kalan ödeme işlemlerinizi tekrarlamanızı öneriyoruz.\n\nTüm zorlukları yenmeyi Birlikte Başaracağız!"
+            android:textAlignment="center"></TextView>
+
+        <Button
+            android:id="@+id/btn_okay"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Anladım"></Button>
+
+    </LinearLayout>
+</ScrollView>
